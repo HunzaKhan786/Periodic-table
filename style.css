@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    
+ padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+table{ 
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+tr{
+    transition:all.2s ease-in;
+}
+tr :hover{
+    width: 20px;
+    height: 30px;
+    transform: scale(1.5);
+    border-radius: 10px;
+    
+
+}
+td{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+   
+
+}
+.green{
+    background-color:rgb(98, 228, 154);
+    color: white;
+}
+.yellow{
+    background-color: yellow;
+    color: white;
+}
+.orange{
+    background-color: rgb(245, 180, 59);
+    color: white;
+
+}
+.lightpurple{
+    background-color: blueviolet;
+    color: white;
+}
+.purple{
+    background-color:rgb(172, 7, 172);
+    color: white;
+}
+.blue{
+    background-color:skyblue;
+    color: white;
+}
+.grey{
+    background-color: grey;
+    color: white;
+
+}
+.red{
+    background-color: rgb(248, 46, 46);
+    color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+table{
+    border:2px solid #fff;
+    border-collapse: collapse;
+    
+}
+.lightgreen{
+    background-color: rgb(77, 236, 77);
+    color: white;
+}
